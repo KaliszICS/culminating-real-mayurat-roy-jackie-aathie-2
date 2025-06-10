@@ -25,6 +25,7 @@ public abstract class Mammal extends AbstractAnimal {
      * define what sound the animal makes. 
      * Define what they eat
      * SUBCLASSES MUST HAVE THESE, CAPYBARA INCLUDED.
+     * however what they eat and how they sound are different!!
      */
     public abstract void makeSound();
     public abstract void feed();
