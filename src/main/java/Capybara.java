@@ -1,11 +1,37 @@
-public abstract class Mammal extends AbstractAnimal {
-    protected String furType;
+public class Capybara extends Mammal {
 
-    public Mammal(int id, String name, int age, String furType) {
-        super(id, name, age);
-        this.furType = furType;
+public Capybara(int id, String name, int age) {
+
+super(id, name, age, "Short brown fur");
+
     }
 
-    public abstract void makeSound();
-    public abstract void feed();
+
+
+    @Override
+
+ public void feed()    
+
+ {
+
+       
+
+    System.out.println(name + " (Capybara) eats grass.");
+
+       }
+
+
+
+         @Override
+
+         
+
+    public void makeSound() {
+
+       
+
+        System.out.println(name + " (Capybara) squeaks.");
+
+    }
+
 }
