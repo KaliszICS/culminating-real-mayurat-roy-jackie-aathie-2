@@ -17,6 +17,12 @@
             <scope>test</scope>
         </dependency>
 
+    
+      <dependency>
+        <groupId>jakarta.tck</groupId>
+        <artifactId>cdi-tck-ee-impl</artifactId>
+        <version>11.0.1-RC1</version>
+      </dependency>
     </dependencies>
 
     <build>
