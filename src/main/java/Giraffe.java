@@ -1,40 +1,44 @@
+/**
+ * Giraffe class
+ * Inherites from Mammal
+ * Giraffes is a type of mammal but a mammal is not a type of giraffe
+ * 
+ */
 public class Giraffe extends Mammal        
 //a giraffe is a animal with big neck
 {
-// constructs our girafee with the things inherited from abstract animal
+
     public Giraffe(int id, String name, int age) {
-// they have spotted fur
+
 super(id, name, age, "Spotted fur");
 
    
 
 }
 
-
-
     @Override
 
 
-//giraffes ususally eats leaves
+
         public void feed()  
 
          {
 
-    System.out.println(name + " (Giraffe) eats leaves.");
+    System.out.println(name + " (Giraffe) eats leaves."); // something like "Ronny (Giraffe) eats leaves"
 
    
 
 }
 
 
-// they usally make the sound hum
+
         @Override
 
     public void makeSound()
 
     {
 
-        System.out.println(name + " (Giraffe) hums.");
+        System.out.println(name + " (Giraffe) hums."); // something like "Bobby (Giraffe) Hums"
 
         }
 
