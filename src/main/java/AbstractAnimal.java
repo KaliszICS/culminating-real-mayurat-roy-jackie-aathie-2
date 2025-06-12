@@ -24,7 +24,7 @@ public abstract class AbstractAnimal {
      * creates the AbstractAnimal with its info
      */
     public AbstractAnimal(int id, String name, int age) {
-        this.id = id;
+        this.id = id; // you can either use this.id or id to call back on to this later one. ASLONG AS YOU ARE CONSISTENT 
         this.name = name;
         this.age = age;
     }
@@ -43,6 +43,7 @@ public abstract class AbstractAnimal {
 
     /**
      * checks if the animal is moving "Capybara moves around"
+     * SUBCLASSES MUST HAVE THIS
      */
     public void move() {
         System.out.println(name + " moves around.");
