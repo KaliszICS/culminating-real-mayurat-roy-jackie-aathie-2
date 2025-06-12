@@ -10,6 +10,7 @@ public class Habitat {
     this.name = name;
        this.capacity = capacity;
      this.temperature = temperature;
+     
         this.animals = new AbstractAnimal[capacity];
     }
 
