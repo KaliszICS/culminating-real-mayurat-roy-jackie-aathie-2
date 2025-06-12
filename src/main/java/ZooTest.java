@@ -1,4 +1,8 @@
+// disregard not apart of game code only testing purposes
 public class ZooTest {
+
+
+
     public static void main(String[] args) {
         
         Habitat forest = new Habitat("Forest", 3, 22.0);
