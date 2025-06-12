@@ -1,9 +1,11 @@
+/* Habitat is just a fancy way of saying where an animal lives */
+/* creates one with a name, a capacity, and. a temperature  */
 public class Habitat {
-    private String name;
-    private int capacity;
-    private double temperature;
+    private String name; // something like savannah or jungle
+    private int capacity; // how much each can hold, 
+    private double temperature; // the temp of it. some animals can only thrive in specfic cold/warm temperatures. dont expect like a peinguin in a hot jungle
     private AbstractAnimal[] animals;
-    private int count = 0;
+    private int count = 0; // counting the animals
 
     public Habitat(String name, int capacity, double temperature) 
     {
@@ -28,7 +30,7 @@ public class Habitat {
         return animals;
     }
 
-    //getters
+    //getters and setters we also use, extremely repetivtive
     
     public String getName() {
         return name;

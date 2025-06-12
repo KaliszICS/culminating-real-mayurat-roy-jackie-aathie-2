@@ -23,10 +23,10 @@ public class ZooTest {
         Owl oscar = new Owl(104, "Oscar", 2);
 
        
-        zoo.addAnimal(cappy, 1);    // Savannah
-        zoo.addAnimal(gemma, 1);    // Savannah
-        zoo.addAnimal(ernie, 2);    // Mountains
-        zoo.addAnimal(oscar, 0);    // Forest
+        zoo.addAnimal(cappy, 1);    
+        zoo.addAnimal(gemma, 1);  
+        zoo.addAnimal(ernie, 2);    
+        zoo.addAnimal(oscar, 0);    
 
        
         alice.feedAnimal(cappy);
