@@ -7,8 +7,14 @@ public class Habitat {
     private AbstractAnimal[] animals;
     private int count = 0; // counting the animals
 
-    public Habitat(String name, int capacity, double temperature) 
-    {
+    /**
+     * Constructs a Habit with the specified name capacity and temp.
+     *
+     * @param name the name of the habit
+     * @param capacity the max. num. of anmials the habit can hold
+     * @param temperature the temperature of the habit
+     */
+    public Habitat(String name, int capacity, double temperature) {
     this.name = name;
        this.capacity = capacity;
      this.temperature = temperature;
@@ -20,22 +26,39 @@ public class Habitat {
     {
             if (count < capacity) 
             {
-        animals[count++] = a;
-                                } else {
-            System.out.println("Habitat is full.");
+                        animals[count++] = a;
+     } else {
+            
+    System.out.println("Habitat is full.");
         }
     }
 
+    /**
+     * Returns the array of animals currently in the habitat.
+     *
+     * @return an array of AbstractAnimal objects
+     */
     public AbstractAnimal[] getAnimals() {
-        return animals;
+    return animals;
     }
 
     //getters and setters we also use, extremely repetivtive
     
+    /**
+     * Returns the name of the habitat.
+     *
+     * @return the habitat's name
+     */
     public String getName() {
-        return name;
+    return name;
     }
+
+    /**
+     * Returns the tempe of the habitat.
+     *
+     * @return the habits temperature
+     */
     public double getTemperature() {
     return temperature;
-}
+    }
 }
