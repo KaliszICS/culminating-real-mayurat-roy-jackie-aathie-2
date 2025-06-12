@@ -60,9 +60,10 @@ public abstract class AbstractAnimal {
 
     /**
      * @return name: the name of the animal
+     * we can actually access the private variables now
      */
     public String getName() {
-        return name;
+        return name; // return name
     }
 
     /**
