@@ -3,6 +3,7 @@
  * also their wing span is 2 meters. not each wing is 2.2 meters is that when they open their wings they are 2 meters wide
  * implements their feeding too
  * also the sounds they make
+ * they can also be tamed like in this zoo
  * 
  */
 public class Eagle extends Bird // extends this is how you inherit
@@ -17,20 +18,20 @@ public class Eagle extends Bird // extends this is how you inherit
                       {
     public Eagle(int id, String name, int age) { // constructor
     
-        super(id, name, age, 2., true);
+        super(id, name, age, 2.0, true);
     }
 
      @Override
 /*
  * what they are feeded
- * eagles can eat alot of things actually, fish are just cheap here
+ * eagles can eat alot of things actually, salmon are just cheap here
  * we could also feed them worms but i have a phobia of wamrs
  * 
  */
         public void feed() 
         {
     
-            System.out.println(name + " (Eagle) eats fish."); //prints something like "bobbdy (eagle) eats fish"
+            System.out.println(name + " (Eagle) eats salmon."); //prints something like "bobbdy (eagle) eats fish"
     }
 /*
  * their sounds

@@ -4,6 +4,7 @@
  * gives each animal 3 things, capybara included 
  * FORCES EACH ANIMAL TO MAKE A SOUND AND EAT 
  * literally the center of our uml
+ * i wish we can actually play the sound through the speakers in the computers but limits exist :(
  * 
  */
 public abstract class AbstractAnimal {
@@ -25,7 +26,7 @@ public abstract class AbstractAnimal {
      */
     public AbstractAnimal(int id, String name, int age) {
         this.id = id; // you can either use this.id or id to call back on to this later one. ASLONG AS YOU ARE CONSISTENT 
-        this.name = name;
+        this.name = name; // use name or this.name
         this.age = age;
     }
 
@@ -54,7 +55,7 @@ public abstract class AbstractAnimal {
      * @return something like "Capybara ID: 12132121321, Age: 2"
      */
     public String getInfo() {
-        return (name + " (ID: " + id + ", Age: " + age + ")");
+        return (name + " (ID: " + id + ", Age: " + age + ")"); // something like "ID 231232312 Age 923287123 "
     }
 
     /**
@@ -65,7 +66,7 @@ public abstract class AbstractAnimal {
     }
 
     /**
-     * @return id: the id we gave the animal, lol
+     * @return id: the id we gave the animal, lol what else could it mean
      */
     public int getId() {
         return id;

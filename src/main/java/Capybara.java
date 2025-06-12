@@ -4,7 +4,9 @@
  * just like mayurun they eat their own poop
  * unlike mayurun they are quite friendly 
  * override is not need again!!
- */
+ * I wanted to created an limit or method that doesnt allow you to feed the capybara and every other animal too much, but time was lost
+ *
+ */ 
 
  /*
   * constucks a capybara with a unique id, name and a age
@@ -22,13 +24,14 @@ public Capybara(int id, String name, int age) {
      * age span 0-12 years
      * 
      */
-super(id, name, age, "Short brown wiry fur");
+super(id, name, age, "Short brown wiry fur"); 
     }
     @Override
 
     /*
      * capybaras are plant eaters, and wont eat meat
      * they eat a variety of greens and love melons and other fruits 
+     * extremely cute animal!!
      * Feed class, carried from abstract animal
      * 
      */
