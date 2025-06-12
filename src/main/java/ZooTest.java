@@ -1,7 +1,6 @@
-// disregard not apart of game code only testing purposes
 public class ZooTest {
 
-
+//disregard zootest not apart of code
 
     public static void main(String[] args) {
         
