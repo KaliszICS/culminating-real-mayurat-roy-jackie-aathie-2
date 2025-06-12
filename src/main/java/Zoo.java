@@ -1,6 +1,18 @@
+/* the backbone of our code
+ * Zoo combines all our staff and habitats
+ */
 public class Zoo {
+    /*
+     * Array of habitats and staff in the zoo
+     */
     private Habitat[] habitats;
     private Staff[] staff;
+
+    /*
+     * constructs zoo with habitats and staff
+     * @param Habitats: an array of habitats. 
+     * @param staff: an array of staff on our zoo
+     */
 
     public Zoo(Habitat[] habitats, Staff[] staff) {
         this.habitats = habitats;
