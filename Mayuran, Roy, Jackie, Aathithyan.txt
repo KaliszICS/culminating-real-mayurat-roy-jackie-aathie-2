@@ -1,0 +1,11 @@
+You do not have a working program that someone can use!
+AbstractAnimal should just be named Animal.
+Your proposal was suppose to be a lot more than this to make this an acceptable project.
+This is rather simple and could have been a lot more fleshed out (more animals and more functionality.  The zoo is mostly a data structure and not a functional zoo for visitors)
+
+
+K(30%): 70
+I(30%): 60
+C(10%): 100
+A(30%): 50
+64%

@@ -1,0 +1,4 @@
+A class should specify if it is abstract (it should not be part of the name but a separate tag), also should be labeled even if it inherits
+Your diagram looks a bit simple for what we talked about during the proposal. (How do people visit, how do you make money etc?)
+
+70
